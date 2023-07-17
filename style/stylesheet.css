@@ -1,0 +1,160 @@
+*, *::before, *::after {box-sizing: border-box;}
+
+
+.grid-container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+
+    padding-block: 2rem;
+    
+    margin-inline: auto;
+
+}
+
+.grid-c {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-inline: auto;
+}
+
+.grid-col-span-5 {
+    grid-column: span 5;
+}
+
+.monday {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.tuesday {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.wednesday {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.thursday {
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.friday {
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.blue {
+    background-color: #03a3df;
+    display: flow-root;
+}
+
+.wh-logo {
+    float: left;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-right: 2rem;
+    list-style: none;
+
+}
+
+.nav-list li a {
+    color: #444444;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav-list li a:visited {
+    color: purple;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.nav-list li a{
+    transition: font-size 1s 1s;
+}
+
+header {
+    background-color: #03a3df;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #03a3df;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.call-out {
+    color: #03a3df;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.footer-pic {
+    background-color: #03a3df;
+    background-image: url(../images/footerImage-small.jpg);
+    background-size: cover;
+
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-links {
+    display: flex;
+    color: #444444;
+    
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.gray {
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.bigger {
+    font-size: 22px;
+}
