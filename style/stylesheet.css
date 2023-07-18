@@ -76,13 +76,18 @@
 }
 
 .nav-list li a {
-    color: #444444;
+    color: #050505;
     font-size: 17px;
     text-decoration: none;
+    font-size: 20px;
+}
+nav ul li {
+    padding: 0.5rem;
+    margin: 1rem;
 }
 
 .nav-list li a:visited {
-    color: purple;
+    color: #800080;
 }
 
 .nav-list li a:hover {
@@ -151,10 +156,29 @@ h3 {
 }
 
 .gray {
-    color: whitesmoke;
+    color: #f5f5f5;
     font-size: 17px;
 }
 
 .bigger {
     font-size: 22px;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0;
 }
