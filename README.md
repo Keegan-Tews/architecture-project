@@ -1,3 +1,5 @@
-<h1>My First Attempt at Mockups</h1>
+<h1>Mockup Work Expanded</h1>
 
-<p>As stated I was given a mock up for a single page and made the code for the page to resemble it as closely as possible.</p>
+<p></p>
+<p>This repo contains the expanded pages and styling for an earlier project called parital-mockup.</p>
+<p>This is the full site mockup according to the materials given as design guide.</p>
